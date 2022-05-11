@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "/usr/bin/clang-10",
+            "cStandard": "c11",
+            "intelliSenseMode": "linux-clang-x64",
+            "defines": [
+                "task=void",
+                "infra_pred",
+                "infra_levy",
+                "infra_pravy",
+                "motorL",
+                "klepetoL",
+                "motorR",
+                "klepetoR",
+                "bool=int",
+                "false=0",
+                "true=1"
+            ]
+        }
+    ],
+    "version": 4
+}
